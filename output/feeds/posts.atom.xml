@@ -1,72 +1,5 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>  First Post | Notebook < Gerardo Ortega
-</title>
-  <link rel="canonical" href="https://notebook.g3ortega.com/first-post.html">
-
-
-  <link rel="stylesheet" href="https://notebook.g3ortega.com/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://notebook.g3ortega.com/theme/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://notebook.g3ortega.com/theme/css/pygments/default.min.css">
-  <link rel="stylesheet" href="https://notebook.g3ortega.com/theme/css/theme.css">
-
-  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
-        href="https://notebook.g3ortega.com/feeds/all.atom.xml">
-  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://notebook.g3ortega.com/feeds/{slug}.atom.xml">  
-  <meta name="description" content="My first post, read it to find out.">
-
-
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-<div class="row">
-  <div class="col-sm-12">
-    <h1 class="title"><a href="https://notebook.g3ortega.com/">Notebook < Gerardo Ortega</a></h1>
-      <ul class="list-inline">
-          <li class="list-inline-item"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
-          <li class="list-inline-item"><a href="http://python.org/" target="_blank">Python.org</a></li>
-          <li class="list-inline-item"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
-          <li class="list-inline-item"><a href="#" target="_blank">You can modify those links in your config file</a></li>
-      </ul>
-  </div>
-</div>    </div>
-  </header>
-
-  <div class="main">
-    <div class="container">
-      <h1>  First Post
-</h1>
-      <hr>
-  <article class="article">
-    <header>
-      <ul class="list-inline">
-        <li class="list-inline-item text-muted" title="2016-06-08T20:00:00-05:00">
-          <i class="fa fa-clock-o"></i>
-          Wed 08 June 2016
-        </li>
-        <li class="list-inline-item">
-          <i class="fa fa-folder-open-o"></i>
-          <a href="https://notebook.g3ortega.com/category/posts.html">posts</a>
-        </li>
-          <li class="list-inline-item">
-            <i class="fa fa-user-o"></i>
-              <a href="https://notebook.g3ortega.com/author/me.html">me</a>          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-files-o"></i>
-              <a href="https://notebook.g3ortega.com/tag/python.html">#python</a>          </li>
-      </ul>
-    </header>
-    <div class="content">
-      <style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Notebook &lt; Gerardo Ortega - posts</title><link href="https://notebook.g3ortega.com/" rel="alternate"></link><link href="https://notebook.g3ortega.com/feeds/posts.atom.xml" rel="self"></link><id>https://notebook.g3ortega.com/</id><updated>2016-06-08T20:00:00-05:00</updated><entry><title>First Post</title><link href="https://notebook.g3ortega.com/first-post.html" rel="alternate"></link><published>2016-06-08T20:00:00-05:00</published><updated>2016-06-08T20:00:00-05:00</updated><author><name>me</name></author><id>tag:notebook.g3ortega.com,2016-06-08:/first-post.html</id><summary type="html">&lt;p&gt;My first post, read it to find out.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -428,7 +361,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -481,19 +414,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -554,7 +487,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -798,7 +731,7 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
-div.output_area .mglyph > img {
+div.output_area .mglyph &gt; img {
   max-width: none;
 }
 /* This is needed to protect the pre formating from global settings such
@@ -1036,7 +969,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -1108,8 +1041,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -1177,114 +1110,114 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.-The-Fibonacci-sequence">1. The Fibonacci sequence<a class="anchor-link" href="#1.-The-Fibonacci-sequence">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The Fibonacci sequence, is a sequence of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1.</p>
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="1.-The-Fibonacci-sequence"&gt;1. The Fibonacci sequence&lt;a class="anchor-link" href="#1.-The-Fibonacci-sequence"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The Fibonacci sequence, is a sequence of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1.&lt;/p&gt;
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>0, 1, 1, 2, 3, 5, 8, 13, 21...</p>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;0, 1, 1, 2, 3, 5, 8, 13, 21...&lt;/p&gt;
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>1.1 A first recursive attempt</p>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;1.1 A first recursive attempt&lt;/p&gt;
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ruby"><pre><span></span><span class="k">def</span> <span class="nf">fib1</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-  <span class="k">return</span> <span class="n">fib1</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib1</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
-<span class="k">end</span>
-</pre></div>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[5]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ruby"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fib1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fib1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;fib1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
-    </div>
-</div>
-</div>
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
 
 
+&lt;div class="output_area"&gt;
+
+    &lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
 
 
-<div class="output_text output_subarea output_execute_result">
-<pre>:fib1</pre>
-</div>
 
-</div>
 
-</div>
-</div>
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;:fib1&lt;/pre&gt;
+&lt;/div&gt;
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>fib1(3)</p>
+&lt;/div&gt;
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Oh oh, we found an error:</p>
-<p>SystemStackError: stack level too deep</p>
+&lt;/div&gt;
+&lt;/div&gt;
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The issue with fib1() is that it will run forever, and it will never return a result a result. For every call to <code>fib1</code> recursevely, two more calls will be executed. We call to this method <code>infinite recursion</code> and it's analogous to an infinite loop.</p>
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;fib1(3)&lt;/p&gt;
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ruby"><pre><span></span>
-</pre></div>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Oh oh, we found an error:&lt;/p&gt;
+&lt;p&gt;SystemStackError: stack level too deep&lt;/p&gt;
 
-    </div>
-</div>
-</div>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The issue with fib1() is that it will run forever, and it will never return a result a result. For every call to &lt;code&gt;fib1&lt;/code&gt; recursevely, two more calls will be executed. We call to this method &lt;code&gt;infinite recursion&lt;/code&gt; and it's analogous to an infinite loop.&lt;/p&gt;
 
-</div>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ruby"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
  
 
 
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -1311,28 +1244,5 @@ h6:hover .anchor-link {
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-
-    </div>
-  </article>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="container">
-<div class="row">
-  <ul class="col-sm-6 list-inline">
-      <li class="list-inline-item"><a href="https://notebook.g3ortega.com/authors.html">Authors</a></li>
-    <li class="list-inline-item"><a href="https://notebook.g3ortega.com/archives.html">Archives</a></li>
-    <li class="list-inline-item"><a href="https://notebook.g3ortega.com/categories.html">Categories</a></li>
-      <li class="list-inline-item"><a href="https://notebook.g3ortega.com/tags.html">Tags</a></li>
-  </ul>
-  <p class="col-sm-6 text-sm-right text-muted">
-    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
-    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
-  </p>
-</div>    </div>
-  </footer>
-</body>
-
-</html>
+&lt;/script&gt;
+</content><category term="python"></category></entry></feed>
